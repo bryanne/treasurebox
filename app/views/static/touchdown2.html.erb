@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Today is Football Saturday</title>
+	<style type="text/css" media="screen">
+	.soot{
+		color:black;
+		width:20%;
+		height:50px;
+		text-align: center;
+		background-color:blue
+	}
+		table#football{
+			border:5px solid blue;
+			width:600;
+			height:400;
+		}
+	</style>
+
+
+</head>
+<body>
+	
+<div style="color:blue; width:100%;">
+	<div class="soot">
+		I want to watch sports!
+	</div>
+	<div>
+		<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-frc3/1468685_10100328623748070_963439592_n.jpg" style="width:265px; height:265px" alt="picture broken">
+	</div>
+	<div style="color:black; width:20%; height:300px; background-color: grey; text-align: center;">
+		The quarterback got sacked!<br/>
+			<%= image_tag "canada.jpg", :style =>"width:200px; height:200px", :alt=>"canada photo did not work" %>
+	</div>
+	<div style="color:blue; width:30%; height:350px; background-color: pink; text-align: center;">
+		Jumping Mara!<br/>
+		<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-prn2/1374847_10100797328818453_683421194_n.jpg" style="width:300px; height:300px" alt="picture broken">
+	</div>
+	<table id="football">
+		<caption>famous football player stats</caption>
+		<thead>
+			<tr>
+				<th>measurement</th>
+				<th>john elway</th>
+				<th>andrew luck</th>
+				<th>RG3</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>speed</td>
+				<td>18sec</td>
+				<td>20sec</td>
+				<td>3sec</td>
+			</tr>
+			<tr>
+				<td>weight</td>
+				<td>152lbs</td>
+				<td>130lbs</td>
+				<td>300lbs</td>
+			</tr>
+			<tr>
+				<td>age</td>
+				<td>40</td>
+				<td>28</td>
+				<td>22</td>
+			</tr>
+		</tbody>
+	</table>
+		<table id="football">
+		<caption>ncaa schedule results</caption>
+		<thead>
+			<tr>
+				<th>Team</th>
+				<th>Wins</th>
+				<th>Losses</th>
+				<th>Ties</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Stanford</td>
+				<td>13</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td>Notre Dame</td>
+				<td>8</td>
+				<td>4</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>USC</td>
+				<td>1</td>
+				<td>8</td>
+				<td>4</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+ <%= link_to "Go to Breezy Page", pages_info_path %>
+</body>
+
+</html>
