@@ -1,4 +1,5 @@
 Railsgirls::Application.routes.draw do
+  devise_for :users
   get "pages/info"
   get "pages/touchdown"
   get "static/touchdown2"
